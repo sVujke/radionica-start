@@ -9,8 +9,8 @@ for plejlista in plejliste:
     
     lista_pesama = plejliste[plejlista]
 
-    print "Ova plejlista ima: %d pesame " % len(lista_pesama)
-    print "Ime ove plejliste je: "+ plejlista+"\n"
+    print "\nOva plejlista ima: %d pesame " % len(lista_pesama)
+    print "Ime ove plejliste je: "+ plejlista
     print "Plejlistu cine: "
     for pesma in plejliste[plejlista]:
         print pesma
